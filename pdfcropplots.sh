@@ -1,0 +1,1 @@
+for f in *.pdf; do pdfcrop -margins 10 $f "${f%.*}".pdf; done &
