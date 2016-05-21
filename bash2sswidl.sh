@@ -1,4 +1,4 @@
-#!/bin/tcsh
+#!/bin/csh
 
 setenv SSW_OSPEX /soft/soft2/solarsoft-OSF1/packages/spex/idl/object_spex	
 setenv OSPEX_MODELS_DIR $SSW_OSPEX
