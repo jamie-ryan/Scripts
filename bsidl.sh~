@@ -11,4 +11,4 @@ limit datasize unlimited
 
 limit stacksize unlimited
 
-nohup sswidl < \!*.batch >& \!*.log
+nohup nice -15 sswidl < \!*.batch >& \!*.log
