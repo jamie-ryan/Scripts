@@ -1,9 +1,4 @@
-#!/bin/csh
-
-#uncomment to see all processes
-#set echo
-#set verbose
-
+#!/bin/tcsh
 setenv SSW_OSPEX /soft/soft2/solarsoft-OSF1/packages/spex/idl/object_spex	
 setenv OSPEX_MODELS_DIR $SSW_OSPEX
 setenv OSPEX_DOC /soft/soft2/solarsoft-OSF1/packages/spex/doc
@@ -16,6 +11,4 @@ limit datasize unlimited
 
 limit stacksize unlimited
 
-sswidl -e $1
-#nohup sswidl -e $1 &
-
+nohup nice -15 sswidl < \!*.batch >& \!*.log
