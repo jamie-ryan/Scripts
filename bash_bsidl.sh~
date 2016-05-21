@@ -1,3 +1,3 @@
 #!/bin/bash
 
-nohup nice ssw < $1 >& $2 &
+nohup nice ~/Documents/ssw < $1 >& $2 &
