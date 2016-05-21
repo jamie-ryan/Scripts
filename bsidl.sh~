@@ -12,4 +12,4 @@ limit datasize unlimited
 limit stacksize unlimited
 
 #nohup /soft/soft2/solarsoft-OSF1/gen/setup/ssw_idl < \!*.batch >& \!*.log
-nohup nice /soft/soft2/solarsoft-OSF1/gen/setup/ssw_idl < testcsh2idl.pro > out.txt 2 > err.txt &
+nohup nice /soft/soft2/solarsoft-OSF1/gen/setup/ssw_idl < $1 >& out.log &

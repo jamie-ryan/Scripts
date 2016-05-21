@@ -1,4 +1,5 @@
 #!/bin/tcsh
+
 setenv SSW_OSPEX /soft/soft2/solarsoft-OSF1/packages/spex/idl/object_spex	
 setenv OSPEX_MODELS_DIR $SSW_OSPEX
 setenv OSPEX_DOC /soft/soft2/solarsoft-OSF1/packages/spex/doc
@@ -12,4 +13,5 @@ limit datasize unlimited
 limit stacksize unlimited
 
 #nohup /soft/soft2/solarsoft-OSF1/gen/setup/ssw_idl < \!*.batch >& \!*.log
-nohup nice /soft/soft2/solarsoft-OSF1/gen/setup/ssw_idl < $1 >& out.log &
+#nohup nice /soft/soft2/solarsoft-OSF1/gen/setup/ssw_idl < idl.pro >& out.log &
+nohup nice /soft/soft2/solarsoft-OSF1/gen/setup/ssw_idl < $1 >& $2 &
