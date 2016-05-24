@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/bin/tcsh
 
-rhessidata['+jj+'-x-y-'+ii+']-'+sig+'sigma-pixel-locations.dat
-sort rhessidata[*-x-y-$i]....dat | uniq -d >> rhessidata.dat
+
+sort *.dat | uniq -d >> out.dat
+
+
