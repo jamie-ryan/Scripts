@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#ps aux | grep jsr2 shows all processes 
+#can then get access to files on local machine using ssh://jsr2@localhost:2222
+ssh -f jsr2@gate.mssl.ucl.ac.uk -L 2222:msslex:22 -N
+#    ssh -YC jsr2@gate.mssl.ucl.ac.uk -L 2222:msslex:22 -N
+ssh -p 2222 -YC jsr2@localhost
+
