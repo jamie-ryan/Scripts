@@ -2,8 +2,8 @@
 
 
 #this finds all unique and puts in file: 
-#sort hmi*.dat | uniq  > tmp.dat
-sort hmi*.dat | uniq -u > tmp.dat
+sort hmi*.dat | uniq  > tmp.dat
+
 
 #counts lines...good sanity check
 grep -c ^ tmp.dat
