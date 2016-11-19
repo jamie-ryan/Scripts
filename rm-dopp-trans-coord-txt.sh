@@ -27,7 +27,7 @@ rmall dopp_transient_coords_*.txt
 cd /unsafe/jsr2/project2/20130708/HMI/v/
 rmall dopp_transient_coords_*.txt
 
-cd /unsafe/jsr2/project2/20130213/HMI/v/
+cd /unsafe/jsr2/project2/20130217/HMI/v/
 rmall dopp_transient_coords_*.txt
 
 cd /unsafe/jsr2/project2/20121023/HMI/v/
@@ -48,7 +48,7 @@ rmall dopp_transient_coords_*.txt
 cd /unsafe/jsr2/project2/20120510/HMI/v/
 rmall dopp_transient_coords_*.txt
 
-cd /unsafe/jsr2/project2/20120509/HMI/v/
+cd /unsafe/jsr2/project2/20120309/HMI/v/
 rmall dopp_transient_coords_*.txt
 
 cd /unsafe/jsr2/project2/20110926/HMI/v/
