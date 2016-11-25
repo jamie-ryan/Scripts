@@ -60,6 +60,3 @@ rmall *.eps
 cd /unsafe/jsr2/project2/20110215/HMI/v/
 rmall *.eps
 
-cd /unsafe/jsr2/project2/depth_images/
-rmall *.eps; rmall *.pdf
-

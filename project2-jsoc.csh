@@ -1,4 +1,5 @@
 #!/bin/csh
+#this script relies on exportfile.csh and url_escape.pl being in the Scripts dir.
 
 cd /unsafe/jsr2/project2/20150311/HMI/v/
 mkdir pre-flare
@@ -58,7 +59,7 @@ exportfile.csh  'hmi.V_45s[2012.10.23_02:00_TAI/20m]' jamie.ryan.14@ucl.ac.uk
 cd /unsafe/jsr2/project2/20120706/HMI/v/
 mkdir pre-flare
 cd pre-flare
-exportfile.csh  'hmi.V_45s[2012.07.06_23:50_TAI/20m]' jamie.ryan.14@ucl.ac.uk
+exportfile.csh  'hmi.V_45s[2012.07.05_23:50_TAI/20m]' jamie.ryan.14@ucl.ac.uk
 
 cd /unsafe/jsr2/project2/201207051134/HMI/v/
 mkdir pre-flare
