@@ -1,0 +1,6 @@
+#!/bin/tcsh
+
+echo 'hello '"$1"
+cd /unsafe/jsr2/project2/20150311/HMI/v/thresh_"$1"sd/
+rmall *.eps
+rmall *.txt
